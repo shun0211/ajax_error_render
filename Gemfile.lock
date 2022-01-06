@@ -94,6 +94,8 @@ GEM
       method_source (~> 1.0)
     pry-rails (0.3.9)
       pry (>= 0.10.4)
+    puma (5.5.2)
+      nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -164,6 +166,7 @@ DEPENDENCIES
   ajax_error_render!
   mysql2 (~> 0.5)
   pry-rails
+  puma
   rspec-rails
 
 BUNDLED WITH
