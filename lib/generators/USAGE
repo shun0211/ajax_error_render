@@ -1,0 +1,9 @@
+Description:
+    Explain the generator
+
+Example:
+    bin/rails generate ajax_error_render:install
+
+    This will create:
+        app/views/errors/error.js.erb
+        app/views/errors/_error.html.erb
