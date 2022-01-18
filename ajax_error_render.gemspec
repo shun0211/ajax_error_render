@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec-rails"
   spec.add_development_dependency "pry-rails"
   spec.add_development_dependency "puma"
+  spec.add_development_dependency "turbolinks", '~> 5'
+  spec.add_development_dependency "webpacker", '~> 5.0'
 end

@@ -9,3 +9,4 @@
 .byebug_history
 
 /vendor/*
+/spec/dummy/node_modules/
