@@ -2,13 +2,31 @@
 Formの送信をAjaxで通信で行った際、エラーメッセージを返すメソッドの提供をします。
 このメソッドでは、#errorのHTML要素のinnerHTMLにエラーメッセージを挿入します。
 
+## Installation
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'ajax_error_render'
+```
+
+```bash
+$ bundle install
+```
+
+Or install it yourself as:
+```bash
+$ gem install ajax_error_render
+```
+
 ## Usage
-1. viewファイルの作成
+1. viewファイルの作成\
+作成されるviewファイルは編集してカスタマイズすることができます。
 ```bash
 $ rails generate ajax_error_render:install
 ```
 
 2. 使用するコントローラーでモジュールをincludeします。\
+render_ajax_errorメソッドをモデルのインスタンスを引数に使用します。\
 例)
 ```ruby
 require 'ajax_error_render'
@@ -25,22 +43,6 @@ class UsersController < ApplicationController
     end
   end
 end
-```
-
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'ajax_error_render'
-```
-
-```bash
-$ bundle install
-```
-
-Or install it yourself as:
-```bash
-$ gem install ajax_error_render
 ```
 
 ## License
